@@ -5,7 +5,7 @@ import ReactTooltip from 'react-tooltip';
 import disableScroll from 'disable-scroll';
 
 export default function IndividualProject(project) {
-  const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text, technologies } = project.project;
+  const {name, img, moduleCourse, linkPage, linkVideo, text, technologies } = project.project;
 
   const [popupState, setPopupState] = useState(false)
 
@@ -30,9 +30,9 @@ export default function IndividualProject(project) {
         </button>
 
 
-        <a data-tip='GitHub' href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
+        {/* <a data-tip='GitHub' href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
           <Icon icon="uim:github-alt" className="project-video-icons-i" />
-        </a>
+        </a> */}
           
         
         <a data-tip='Ver aplicação' href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
