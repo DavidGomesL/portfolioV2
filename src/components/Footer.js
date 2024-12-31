@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
     <footer className="footer">
       <Icon icon="ic:baseline-email" />
-      <p className="footer-text">danielle.luisasilva@gmail.com</p>
+      <p className="footer-text">davidgomes1194@gmail.com</p>
     </footer>
     )
   }

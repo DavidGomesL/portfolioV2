@@ -18,12 +18,12 @@ export default class Home extends Component {
           <div className="home">
           
             <section className="home-section home-text-animation">
-              <p className="home-name-1">Danielle</p>
-              <p className="home-name-2">Silva</p>
+              <p className="home-name-1">David</p>
+              <p className="home-name-2">Gomes</p>
               <div className="home-subtitle">
-                <p className="home-subtitle-1">Desenvolvedora front-end</p><span>|</span>
-                <p className="home-subtitle-2">Estudante de Desenvolvimento Web Full Stack</p><span>|</span>
-                <p className="home-subtitle-3">Trybe</p>
+                <p className="home-subtitle-1">Desenvolvedora Full Stack</p><span>|</span>
+                <p className="home-subtitle-2">Estudante de Anślise e Desenvolvimento de Sistemas</p><span></span>
+                {/* <p className="home-subtitle-3">Trybe</p> */}
               </div>
             </section>
             <SocialMedia />
