@@ -39,11 +39,11 @@ const hardSkillsIcons = [
     className: 'about-icon',
     title: 'React Native' 
   },
-  {
-    icon: 'tabler:brand-mantine',
-    className: 'about-icon',
-    title: 'Mantine' 
-  },
+  // {
+  //   icon: 'tabler:brand-mantine',
+  //   className: 'about-icon',
+  //   title: 'Mantine' 
+  // },
   {
     icon: 'simple-icons:mui',
     className: 'about-icon',
@@ -59,11 +59,11 @@ const hardSkillsIcons = [
     className: 'about-icon',
     title: 'HTML' 
   },
-  {
-    icon: 'akar-icons:redux-fill',
-    className: 'about-icon',
-    title: 'Redux' 
-  },
+  // {
+  //   icon: 'akar-icons:redux-fill',
+  //   className: 'about-icon',
+  //   title: 'Redux' 
+  // },
   {
     icon: 'bi:git',
     className: 'about-icon',
@@ -95,16 +95,16 @@ const hardSkillsIcons = [
     className: 'about-icon',
     title: 'NodeJS' 
   },
-  {
-    icon: 'cib:ruby',
-    className: 'about-icon',
-    title: 'Ruby' 
-  },
-  {
-    icon: 'mdi:language-ruby-on-rails',
-    className: 'about-icon',
-    title: 'Ruby on Rails' 
-  },
+  // {
+  //   icon: 'cib:ruby',
+  //   className: 'about-icon',
+  //   title: 'Ruby' 
+  // },
+  // {
+  //   icon: 'mdi:language-ruby-on-rails',
+  //   className: 'about-icon',
+  //   title: 'Ruby on Rails' 
+  // },
 ];
 
 export default hardSkillsIcons;
