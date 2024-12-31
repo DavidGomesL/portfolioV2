@@ -23,20 +23,20 @@ import imgTrybetunes from '../assets/img-trybetunes.webp';
 import imgTrybeWallet from '../assets/img-trybewallet.webp';
 import imgAppDeReceitas from '../assets/img-app-de-receitas.webp';
 import imgNatours from '../assets/img-natours.webp';
-import imgDragNdrop from '../assets/img-dragNdrop.webp';
+import imglosMantosBr from '../assets/losMantosBR.webp';
 
 
 const allProjects = [
   {
     id: 12,
-    name: 'Drag N Drop',
+    name: 'Los Mantos BR',
     moduleCourse: 'Front-end',
-    img: imgDragNdrop,
-    linkGitHub: 'https://github.com/daniellelsilva/drag-n-drop',
-    linkPage: 'https://daniellelsilva.github.io/drag-n-drop/',
+    img: imglosMantosBr,
+    // linkGitHub: 'https://github.com/daniellelsilva/drag-n-drop',
+    linkPage: 'https://www.losmantosbr.com.br/',
     linkVideo: dragNdrop,
-    technologies: 'Sass, React, JSX, Dropzone, HTML5',
-    text: 'Este foi um desafio independente onde o objetivo foi criar uma zona "drag and drop" que aceitasse somente arquivos CSV. Além da funcionalidade, foquei na descoberta de uma biblioteca que eu ainda não conhecia (Dropzone) e busquei uma boa usabilidade e aparência na aplicação.'
+    technologies: 'JS, HTML5, CSS3, Twig',
+    text: 'Este foi um desafio desenvolvido para a Levita Tech, onde o objetivo foi criar um ecommerce que ampliasse as vendas do proprietário da loja. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável para os usuários e busquei uma boa usabilidade e aparência na aplicação.'
   },
 
   {
