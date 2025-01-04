@@ -27,7 +27,7 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-2">meu nome é <span>David Gomes</span></p>
                 
-                <p className="about-text-p about-text-p-3">Sou desenvolvedor <span>full-stack</span> e atuo como Desenvolvedor Estagiário Front-end na <span>Levita Tech</span> !</p>
+                <p className="about-text-p about-text-p-3">Sou desenvolvedor <span>full-stack</span> e atuo como Desenvolvedor Front-end na <span>Levita Tech</span> !</p>
                 
                 <p className="about-text-p about-text-p-3">Possuo experiência sólida em <span>JavaScript</span>, <span>ReactJS</span>, <span>TypeScript</span>, <span>React Native</span> e <span>Sass/CSS</span>, estou constantemente aprimorando minha habilidade em criar interfaces de usuário elegantes e funcionais, muitas vezes utilizando o <span>Figma</span> para criar wireframes e protótipos. Além disso, estou familiarizado com ferramentas essenciais como NodeJS, Bootstrap, MUI, Jest, Cypress, SQL e Docker para desenvolvimento de aplicativos robustos</p>
                 
