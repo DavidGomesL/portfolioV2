@@ -1,9 +1,3 @@
-import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
-import trybewarts from '../assets/trybewarts-video.mp4';
-import pixelArt from '../assets/pixel-art-video.mp4';
-import toDoList from '../assets/to-do-list-video.mp4';
-import shoppingCart from '../assets/shopping-cart-video.mp4';
-import solarSystem from '../assets/solar-system-video.mp4';
 import tryunfo from '../assets/killertrunfo.mp4';
 import trybetunes from '../assets/trybetunes.mp4';
 import trybewallet from '../assets/TrybeWallet.mp4';
@@ -12,164 +6,157 @@ import natours from '../assets/Natours.mp4';
 import dragNdrop from '../assets/dragNdrop.mp4';
 
 
-import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.webp';
-import imgTrybewarts from '../assets/img-trybewarts-img.webp';
-import imgPixelArt from '../assets/img-pixel-art.webp';
-import imgToDoList from '../assets/img-to-do-list.webp';
-import imgShoppingCart from '../assets/img-shopping-cart.webp';
-import imgSolarSystem from '../assets/img-solar-system.webp';
-import imgTryunfo from '../assets/img-tryunfo.webp';
-import imgTrybetunes from '../assets/img-trybetunes.webp';
-import imgTrybeWallet from '../assets/img-trybewallet.webp';
-import imgAppDeReceitas from '../assets/img-app-de-receitas.webp';
-import imgNatours from '../assets/img-natours.webp';
 import imglosMantosBr from '../assets/losMantosBR.webp';
-
+import imgLevitaTech from '../assets/levitaTech.webp';
+import imgEshop from '../assets/eshop.webp';
+import imgIbandece from '../assets/ibandce.webp';
+import imgCasaMaze from '../assets/casaMaze.webp';
+import imgVibrazMadeiras from '../assets/vibrazMadeiras.webp';
 
 const allProjects = [
   {
     id: 12,
-    name: 'Los Mantos BR',
+    name: 'Levita Tech',
     moduleCourse: 'Front-end',
-    img: imglosMantosBr,
+    img: imgLevitaTech,
     // linkGitHub: 'https://github.com/daniellelsilva/drag-n-drop',
-    linkPage: 'https://www.losmantosbr.com.br/',
+    linkPage: 'https://levitatech.com.br/',
     linkVideo: dragNdrop,
-    technologies: 'JS, HTML5, CSS3, Twig',
-    text: 'Este foi um desafio desenvolvido para a Levita Tech, onde o objetivo foi criar um ecommerce que ampliasse as vendas do proprietário da loja. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável para os usuários e busquei uma boa usabilidade e aparência na aplicação.'
+    technologies: 'Wordpress, HTML5, CSS3',
+    text: 'Este foi um desafio desenvolvido para a Levita Tech, onde o objetivo foi criar um site com a cara da empresa e que ampliasse seu alcance a novos clientes. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável e de fácil manuseio para os usuários.'
   },
 
   {
     id: 11,
-    name: 'Natours',
+    name: 'Los Mantos Br',
     moduleCourse: 'Front-end',
-    img: imgNatours,
-    linkGitHub: 'https://github.com/daniellelsilva/natours',
-    linkPage: 'https://daniellelsilva.github.io/natours/',
+    img: imglosMantosBr,
+    // linkGitHub: 'https://github.com/daniellelsilva/natours',
+    linkPage: 'https://losmantosbr.com.br',
     linkVideo: natours,
-    technologies: 'Sass, React, JSX, CSS3, HTML5',
-    text: 'Este projeto foi desenvolvido no curso de CSS avançado e Sass da Udemy ministrado por Jonas Schmedtmann. O objetivo do projeto e das aulas foi desenvolver a página de uma empresa de turismo fictícia chamada Natours, aplicando conceitos avançados de CSS e Sass'
+    technologies: 'JS, HTML5, CSS3, Twig, Swiper, Bootstrap',
+    text: 'Este foi um desafio desenvolvido para a Los Mantos Br, onde o objetivo foi criar um e-commerce que ampliasse as vendas do proprietário da loja. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável para os usuários e busquei uma boa usabilidade e aparência na aplicação.'
   },
   
   {
     id: 10,
-    name: 'Cook It',
+    name: 'Eshop',
     moduleCourse: 'Front-end',
-    img: imgAppDeReceitas,
-    linkGitHub: 'https://github.com/daniellelsilva/cook-it',
-    linkPage: 'https://daniellelsilva.github.io/cook-it/#/',
+    img: imgEshop,
+    // linkGitHub: 'https://github.com/daniellelsilva/cook-it',
+    linkPage: 'https://www.eshop.com.br/',
     linkVideo: appDeReceitas,
-    technologies: 'Context, Hooks, React, JSX, CSS3, HTML5',
-    text: 'Este foi o último projeto de Front-end, o objetivo foi criar um app de receitas de dirnks e comidas consumindo duas APIs e utilizando ferramentas como react, hooks e context. O projeto foi realizado em grupo, os integrantes estão citados no GitHub'
+    technologies: 'JS, HTML5, CSS3, Twig, Swiper, Bootstrap',
+    text: 'Este foi um desafio desenvolvido para a Eshop, onde o objetivo foi criar um e-commerce que ampliasse as vendas do proprietário da loja abordando seu amplo catálogo de produtos de marcas internacionais. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável para os usuários e busquei uma boa usabilidade e aparência na aplicação.'
   },
   
   {
     id: 9,
-    name: 'TrybeWallet',
+    name: 'IBandCe',
     moduleCourse: 'Front-end',
-    img: imgTrybeWallet,
-    linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
-    linkPage: 'https://daniellelsilva.github.io/TrybeWallet/#/',
+    img: imgIbandece,
+    // linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
+    linkPage: 'https://ibandce.com.br/',
     linkVideo: trybewallet,
-    technologies: 'Redux, React, JSX, CSS3, HTML5',
-    text: 'A proposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
+    technologies: 'PHP, JS, CSS3, HTML5, Wordpress',
+    text: 'A proposta do projeto foi criar a IBandCe, um site de notícias da Band Ceará que é uma emissora brasileira sediada em Fortaleza-ce. Apesar do site originalmente ter tido seu desenvolvimento solicitado em wordpress, devido as funcionalidades e a solicitação por parte do cliente de não fazer uso dos plugins da plataforma, foram utilizadas as linguagens PHP e JavaScript, além de tecnologias como HTML5 e CSS3, para gerar toda a interface e interação do site, tornando agradável a experiência do usuário.'
   },
   
   {
     id: 8,
-    name: 'TrybeTunes',
+    name: 'Casa Mazê',
     moduleCourse: 'Front-end',
-    img: imgTrybetunes,
-    linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
-    linkPage: 'https://daniellelsilva.github.io/trybetunes/#/',
+    img: imgCasaMaze,
+    // linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
+    linkPage: 'https://www.casamaze.com.br/',
     linkVideo: trybetunes,
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'A proposta do projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.'
+    technologies: 'JS, HTML5, CSS3, Twig, Swiper, Bootstrap',
+    text: 'Este foi um desafio desenvolvido para a Casa Mazê, onde o objetivo foi criar um e-commerce que ampliasse as vendas do proprietário da loja abordando seu amplo catálogo de produtos para casa. Além da funcionalidade, foquei no desenvolvimento de uma interação agradável para os usuários e busquei uma boa usabilidade e aparência na aplicação.'
   },
 
   {
     id: 7,
-    name: 'Tryunfo',
+    name: 'Vibraz Madeiras',
     moduleCourse: 'Front-end',
-    img: imgTryunfo,
+    img: imgVibrazMadeiras,
     linkVideo: tryunfo,
-    linkGitHub: 'https://github.com/daniellelsilva/tryunfo',
-    linkPage: 'https://daniellelsilva.github.io/tryunfo',
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'Neste projeto foi desenvolvido um jogo de Super Trunfo. A aplicação possuia tema livre e deveria ser desenvolvido um baralho, sendo possível criar cartas, pré-visualizar a carta, adicionar e remover cartas do baralho, além de possuir três filtros.'
+    // linkGitHub: 'https://github.com/daniellelsilva/tryunfo',
+    linkPage: 'https://vibrazmadeiras.com.br/',
+    technologies: 'Wordpress, CSS3, HTML5',
+    text: 'Neste projeto busquei desenvolver um site fluido e que mesclasse com o compromisso e precisão do trabalho executado pela Vibraz Madeiras. Foi solicitado a construção de um site que apresentasse o trabalho Vibraz e toda sua execelência.'
   },
 
-  {
-    id: 6,
-    name: 'Solar system',
-    moduleCourse: 'Front-end',
-    img: imgSolarSystem,
-    linkVideo: solarSystem,
-    linkGitHub: 'https://github.com/daniellelsilva/solar-system',
-    linkPage: 'https://daniellelsilva.github.io/solar-system/',
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'Este foi o primeiro projeto do módulo de Front-end e meu primeiro projeto em React, foi desenvolvido um modelo do sistema solar, sendo visualizado todos os planetas e missões espaciais.'
-  },
+  // {
+  //   id: 6,
+  //   name: 'Solar system',
+  //   moduleCourse: 'Front-end',
+  //   img: imgSolarSystem,
+  //   linkVideo: solarSystem,
+  //   linkGitHub: 'https://github.com/daniellelsilva/solar-system',
+  //   linkPage: 'https://daniellelsilva.github.io/solar-system/',
+  //   technologies: 'React, JSX, CSS3, HTML5',
+  //   text: 'Este foi o primeiro projeto do módulo de Front-end e meu primeiro projeto em React, foi desenvolvido um modelo do sistema solar, sendo visualizado todos os planetas e missões espaciais.'
+  // },
 
-  {
-    id: 5,
-    name: 'Shopping cart',
-    moduleCourse: 'Fundamentos',
-    img: imgShoppingCart,
-    linkVideo: shoppingCart,
-    linkGitHub: 'https://github.com/daniellelsilva/shopping-cart',
-    linkPage: 'https://daniellelsilva.github.io/shopping-cart/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Primeiro projeto utilizando API! O objetivo do projeto foi desenvolver um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API.'
-  },
+  // {
+  //   id: 5,
+  //   name: 'Shopping cart',
+  //   moduleCourse: 'Fundamentos',
+  //   img: imgShoppingCart,
+  //   linkVideo: shoppingCart,
+  //   linkGitHub: 'https://github.com/daniellelsilva/shopping-cart',
+  //   linkPage: 'https://daniellelsilva.github.io/shopping-cart/',
+  //   technologies: 'JavaScript, CSS3, HTML5',
+  //   text: 'Primeiro projeto utilizando API! O objetivo do projeto foi desenvolver um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API.'
+  // },
 
-  {
-    id: 4,
-    name: 'To do list',
-    moduleCourse: 'Fundamentos',
-    img: imgToDoList,
-    linkVideo: toDoList,
-    linkGitHub: 'https://github.com/daniellelsilva/to-do-list',
-    linkPage: 'https://daniellelsilva.github.io/to-do-list/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, foi utilizado CSS e Javascript para criar uma aplicação onde é possível adicionar e remover tarefas, marcar tarefa como feita, remover somente itens marcados, salvar a lista e remover todos os itens.'
-  },
+  // {
+  //   id: 4,
+  //   name: 'To do list',
+  //   moduleCourse: 'Fundamentos',
+  //   img: imgToDoList,
+  //   linkVideo: toDoList,
+  //   linkGitHub: 'https://github.com/daniellelsilva/to-do-list',
+  //   linkPage: 'https://daniellelsilva.github.io/to-do-list/',
+  //   technologies: 'JavaScript, CSS3, HTML5',
+  //   text: 'Projeto do bloco de fundamentos, foi utilizado CSS e Javascript para criar uma aplicação onde é possível adicionar e remover tarefas, marcar tarefa como feita, remover somente itens marcados, salvar a lista e remover todos os itens.'
+  // },
 
-  {
-    id: 3,
-    name: 'Pixel-art',
-    moduleCourse: 'Fundamentos',
-    img: imgPixelArt,
-    linkVideo: pixelArt,
-    linkGitHub: 'https://github.com/daniellelsilva/pixel-art',
-    linkPage: 'https://daniellelsilva.github.io/pixel-art/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, foi utilizada manipulação de DOM e Javascript para criar uma aplicação onde é possível fazer arte com pixels. As cores deveriam ser aleatórias e o quadro deve permitir mudar o número de pixels.'
-  },
+  // {
+  //   id: 3,
+  //   name: 'Pixel-art',
+  //   moduleCourse: 'Fundamentos',
+  //   img: imgPixelArt,
+  //   linkVideo: pixelArt,
+  //   linkGitHub: 'https://github.com/daniellelsilva/pixel-art',
+  //   linkPage: 'https://daniellelsilva.github.io/pixel-art/',
+  //   technologies: 'JavaScript, CSS3, HTML5',
+  //   text: 'Projeto do bloco de fundamentos, foi utilizada manipulação de DOM e Javascript para criar uma aplicação onde é possível fazer arte com pixels. As cores deveriam ser aleatórias e o quadro deve permitir mudar o número de pixels.'
+  // },
 
-  {
-    id: 2,
-    name: 'Trybewarts',
-    moduleCourse: 'Fundamentos',
-    img: imgTrybewarts,
-    linkVideo: trybewarts,
-    linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
-    linkPage: 'https://daniellelsilva.github.io/trybewarts/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, o desafio era criar um formulário HTML para a escola de magia Trybewarts utilizando CSS flexbox e Javascript. O projeto foi desenvolvido em dupla com Nayara Vasconcelos.'
-  },
+  // {
+  //   id: 2,
+  //   name: 'Trybewarts',
+  //   moduleCourse: 'Fundamentos',
+  //   img: imgTrybewarts,
+  //   linkVideo: trybewarts,
+  //   linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
+  //   linkPage: 'https://daniellelsilva.github.io/trybewarts/',
+  //   technologies: 'JavaScript, CSS3, HTML5',
+  //   text: 'Projeto do bloco de fundamentos, o desafio era criar um formulário HTML para a escola de magia Trybewarts utilizando CSS flexbox e Javascript. O projeto foi desenvolvido em dupla com Nayara Vasconcelos.'
+  // },
 
-  {
-    id: 1,
-    name: 'Primeiro portfólio',
-    moduleCourse: 'Fundamentos',
-    img: imgPrimeiroPortfolio,
-    linkVideo: primeiroPortfolio,
-    linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
-    linkPage: 'https://daniellelsilva.github.io',
-    technologies: 'CSS3, HTML5',
-    text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
-  }
+  // {
+  //   id: 1,
+  //   name: 'Primeiro portfólio',
+  //   moduleCourse: 'Fundamentos',
+  //   img: imgPrimeiroPortfolio,
+  //   linkVideo: primeiroPortfolio,
+  //   linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
+  //   linkPage: 'https://daniellelsilva.github.io',
+  //   technologies: 'CSS3, HTML5',
+  //   text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
+  // }
 ];
 
 

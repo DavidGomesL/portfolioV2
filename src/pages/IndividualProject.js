@@ -5,7 +5,7 @@ import ReactTooltip from 'react-tooltip';
 import disableScroll from 'disable-scroll';
 
 export default function IndividualProject(project) {
-  const {name, img, moduleCourse, linkPage, linkVideo, text, technologies } = project.project;
+  const {name, img, moduleCourse, linkPage, text, technologies } = project.project;
 
   const [popupState, setPopupState] = useState(false)
 
@@ -50,7 +50,7 @@ export default function IndividualProject(project) {
                 <button className='popup-Close' onClick={hidePopup}><i className="bi bi-x-circle popupClose"></i></button>
               </div>
               
-              <video src={linkVideo} controls="controls" />
+              {/* <video src={linkVideo} controls="controls" /> */}
 
               <div className='popup-informative-text'>
                 <p>{name}</p>
